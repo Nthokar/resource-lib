@@ -18,9 +18,12 @@ configurations {
 
 repositories {
     mavenCentral()
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
+    implementation 'com.github.jitpack:gradle-simple:1.0'
+
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
     implementation 'org.projectlombok:lombok:1.18.28'
