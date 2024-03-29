@@ -34,9 +34,6 @@ publishing {
             }
         }
     }
-    gpr(MavenPublication) {
-        from(components.java)
-    }
 }
 
 
