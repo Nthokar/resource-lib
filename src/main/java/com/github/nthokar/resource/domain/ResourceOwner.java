@@ -1,10 +1,11 @@
-package org.zavsoft.museum.resource.domain;
+package com.github.nthokar.resource.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
 import java.util.Set;
+
 
 @Entity
 public abstract class ResourceOwner {
